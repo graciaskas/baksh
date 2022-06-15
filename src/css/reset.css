@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+@font-face {
+   font-family: "Sackers Gothic Std";
+    src: url(../fonts/SackersGothicStd-Heavy.otf);
+    font-weight: 300 !important;
+}
+
+@font-face {
+    font-family: "Sackers Gothic Std";
+    src: url(../fonts/SackersGothicStd-Light.otf);
+}
+
+@font-face {
+    font-family: "Sackers Gothic Std";
+    src: url(../fonts/SackersGothicStd-Medium.otf);
+}
+
+:root {
+    --yellow : #c49a50;
+    --black : #000;
+    --font-default:"Sackers Gothic Std";
+}
+
+* {
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+}
+body {
+    width: 100%;
+    margin: 0;
+    font-family: 'Poppins';
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+h1 {
+    font-size: 7rem;
+}
+
+h1, h2, h3, h3,h4, h5, h4 {
+    font-family: var(--font-default);
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: var(--black);
+    font-family: var(--font-default);
+}

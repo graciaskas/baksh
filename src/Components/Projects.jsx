@@ -1,7 +1,7 @@
 import React from "react";
 import Carousel from "react-bootstrap/Carousel";
 
-import "./Project.css";
+
 const Projects = () => {
   return (
     <>

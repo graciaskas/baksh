@@ -1,90 +1,68 @@
 import React from "react";
-import "./Navbar.css";
 
 const Navbar = () => {
   return (
     <>
       {/* nav start */}
-      <nav>
+      <header>
         <div className="container">
-          <div className="row">
-            <div className="col-md-2 col-4 mt-5">
-              <img src="logo.png" className="logo" alt="" />
+          <div className="header">
+            <div className="">
+              <img src="logo.png" className="logo" alt="" width={40}/>
             </div>
-            <div className="col-md-8 col-6 mt-5">
-              <nav className="navbar navbar-expand-lg navbar-light bg-transparent">
-                <button
-                  className="navbar-toggler"
-                  type="button"
-                  data-toggle="collapse"
-                  data-target="#navbarNav"
-                  aria-controls="navbarNav"
-                  aria-expanded="false"
-                  aria-label="Toggle navigation"
-                >
-                  <span className="navbar-toggler-icon"></span>
-                </button>
-                <div className="collapse navbar-collapse" id="navbarNav">
-                  <ul className="navbar-nav">
-                    <li className="nav-item ">
+            <nav>  
+              <ul>
+                    <li>
                       <a className="nav-link" href="#">
                         Home
                       </a>
                     </li>
-                    <li className="nav-item">
-                      <a className="nav-link" href="#">
-                        About
-                      </a>
-                    </li>
-                    <li className="nav-item">
-                      <a className="nav-link" href="#">
-                        Projects
-                      </a>
-                    </li>
-                    <li className="nav-item">
-                      <a className="nav-link " href="#">
-                        Events
-                      </a>
-                    </li>
-                    <li className="nav-item">
-                      <a className="nav-link " href="#">
-                        Blogs
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-              </nav>
-            </div>
-            <div className="col-md-2 col-4 mt-5">
-              <div className="rectangle">
-                <p className="con">Contact</p>
-              </div>
+                    <li>
+                      <a className="nav-link" href="#">About</a>
+                  </li>
+                  
+                  <li>
+                    <a className="nav-link" href="#">Projects</a>
+                  </li>
+                  
+                  <li>
+                    <a className="nav-link " href="#">Events</a>
+                  </li>
+
+                  <li>
+                    <a className="nav-link " href="#">Blogs</a>
+                  </li>
+                </ul>
+             
+            </nav>
+
+            <div className="square-yellow font-default">
+              Contact
             </div>
           </div>
+          
         </div>
-      </nav>
-      {/* header section start */}
-      <div className="container">
-        <div className="col-12">
-          <h1 className="BKS">BAKSH</h1>
-        </div>
-      </div>
-      {/* nav end */}
+      </header>
 
+  
       {/* header end */}
 
-      {/* section start */}
-      <div className="container">
-        <div className="col-md-12 col-12 mt-5">
-          <p className="value">WE VALUE YOUR DREAMS</p>
-          <p className="para2">
-            Our core mission is to provide the highest caliber real estate{" "}
-            <br /> developement, management, and investment services
-          </p>
+      {/*======> Banner Section <=============*/}
+      <section className="banner__section">
+         <div className="container">
+          <div className="banner__content">
+            <h1>BAKSH</h1>
+            <h3 className="value_text">WE VALUE YOUR DREAMS</h3>
+            <p>
+              Our core mission is to provide the highest caliber real estate{" "}
+              <br /> developement, management, and investment services
+            </p>
+          </div>
         </div>
-      </div>
-      {/* section end */}
+      </section>
 
+
+      
       {/* contact us start */}
       <div className="container">
         <div className="row">
