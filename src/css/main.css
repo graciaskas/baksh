@@ -115,10 +115,31 @@
     display: flex;
     align-items: flex-end;
     justify-content: center;
-    height: 300px;
 }
 
-/* .about__content .__image img{
-    width: 50%;
-} */
+.about__content .__image img{
+    width: 500px;
+}
 
+
+.service__content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.service__content img{
+    width: 700px;
+}
+
+.__service h4 {
+    position: relative;
+}
+.__service h4::before{
+    content: "";
+    height: 5px;
+    background: var(--gray);
+    position: absolute;
+    width: 70%;
+    bottom: -10px;
+    border-radius: 0.25rem;
+}
