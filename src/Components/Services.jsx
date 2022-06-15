@@ -12,7 +12,7 @@ const Serives = () => {
               <h2 className="services-heading2">SERVICES</h2>
             </div>
             <div className="col-md-6 col-12">
-              <img src="rec53.png" className="serviceimg" alt="" />
+              <img src="/img/rec53.png" className="serviceimg" alt="imag" />
             </div>
           </div>
         </div>

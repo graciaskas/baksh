@@ -1,7 +1,6 @@
 @import url(./reset.css);
 @import url(./components.css);
 
-
 /* navbar */ 
 .header {
     display: flex;
@@ -14,6 +13,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    text-align: center;
 }
 .header nav ul li a{
    padding: 0 1rem;
@@ -35,3 +35,90 @@
     align-items: center;
     text-align: center;
 }
+
+
+/* Contact Section */
+.contact__section {
+    padding: 4rem 0;
+    position: relative;   
+}
+
+.contact__section .contact__content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /* align-items: center; */
+    border-top: 1px solid var(--gray);
+    border-bottom: 1px solid var(--gray);
+    padding: 1.5rem 0;
+}
+
+.contact__section .contact__content .__call{
+    border-left: 1px solid var(--gray);
+    width: 50%;
+    padding-left: 5rem;
+}
+
+/* Projects Section */
+.project__section {
+    padding-bottom: 2rem;
+}
+
+.project__section .project__content {
+    /* padding: 1rem 0; */
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: space-between;
+    align-items: stretch;
+}
+.project__section .project__content .__explain{
+    width: 40%;
+}
+.project__section .project__content .__carousel{
+    width: 60%;
+    margin-left: 10%;
+}
+
+.__project{
+    width: 50%;
+    height: 450px !important;
+    overflow: hidden;
+    display: inline-block !important;
+    padding: 1rem;
+    cursor: pointer;
+    outline: none !important;
+} 
+.__project img{
+    width: 100%;
+    height: 100%;
+    /* border: 1px solid #dfdfdf;
+    box-shadow: 0 0 3px #efefef; */
+    /* border-radius: 0.5rem; */
+}
+
+.about__section {
+    background-color: var(--gray-second, #faf8f8a9);
+    padding: 5rem;
+}
+
+.about__content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.about__content .__explain {
+    width: 300px;
+}
+
+.about__content .__image {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    height: 300px;
+}
+
+/* .about__content .__image img{
+    width: 50%;
+} */
+

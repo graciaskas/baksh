@@ -18,7 +18,9 @@
 :root {
     --yellow : #c49a50;
     --black : #000;
+    --gray : #dfdfdf;
     --font-default:"Sackers Gothic Std";
+    --font-poppins :  "Poppins";
 }
 
 * {
@@ -40,7 +42,7 @@ img {
 }
 
 h1 {
-    font-size: 7rem;
+    font-size: 7.5rem;
 }
 
 h1, h2, h3, h3,h4, h5, h4 {

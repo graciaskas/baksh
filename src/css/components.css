@@ -2,14 +2,29 @@
     width: 80%;
     margin: auto;
 }
+
 .square-yellow {
     padding: 0.65rem 2rem;
     border: 2px solid var(--yellow);
     display: inline-block;
     color: var(--yellow);   
 }
+
+/* Font families */
 .font-default {
     font-family: var(--font-default);
+}
+.font-poppins {
+    font-family: var(--font-poppins);
+}
+
+/* Text colors */
+.text-yellow {
+    color: var(--yellow);
+}
+.text-small {
+    font-size: 1rem;
+    font-weight: 200;
 }
 
 .value_text {    
@@ -38,3 +53,5 @@
     right: -85px;
     border-radius: 0.25rem;
 }
+
+
