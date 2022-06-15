@@ -1,0 +1,197 @@
+.rectangle {
+  border: 1px solid #c49a50;
+}
+.con {
+  text-align: center;
+  font-family: "Sackers Gothic Std";
+  font-style: normal;
+  font-weight: 850;
+  font-size: 19px;
+  line-height: 19px;
+  margin-top: 13px;
+  letter-spacing: 1px;
+  color: #c49a50;
+}
+.con:hover {
+  cursor: pointer;
+}
+.navbar-nav .nav-item .nav-link {
+  margin-left: 30px;
+  color: #707070;
+  font-weight: 850;
+  font-size: 17px;
+  font-family: "Sackers Gothic Std";
+}
+.navbar-nav .nav-item .nav-link:hover {
+  color: #c49a50;
+}
+.navbar-nav .nav-item {
+  margin-left: 10px;
+}
+.logo {
+  height: 48px;
+}
+
+/* HEADER START */
+
+.BKS {
+  color: #0c1f30;
+  font-size: 212px;
+  margin-top: 92px;
+  text-align: center;
+  font-family: "Sackers Gothic Std";
+  margin-left: -124px;
+}
+
+/* header end */
+.value {
+  color: #6e6e73;
+  text-align: center;
+  font-family: "Sackers Gothic Std";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 33px;
+}
+.value::after {
+  content: "";
+  height: 2px;
+  width: 5%;
+  background: #6e6e73;
+  position: absolute;
+  right: 20%;
+  top: 23px;
+}
+
+.value::before {
+  content: "";
+  height: 2px;
+  width: 5%;
+  background: #6e6e73;
+  position: absolute;
+  left: 20%;
+  top: 23px;
+}
+.para2 {
+  text-align: center;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+/* contact us start */
+.real-estate,
+.sol {
+  font-family: "Sackers Gothic Std";
+  font-style: normal;
+
+  letter-spacing: 1px;
+}
+.sol {
+  color: #c49a50;
+}
+.contact {
+  margin-top: 111px;
+}
+.contact::after {
+  content: "";
+  height: 1px;
+  width: 100%;
+  background: #c1c1d5;
+  position: absolute;
+  bottom: -57px;
+}
+.contact::before {
+  content: "";
+  height: 1px;
+  width: 100%;
+  background: #c1c1d5;
+  position: absolute;
+  top: -64px;
+}
+
+.contact2::after {
+  content: "";
+  height: 1px;
+  width: 100%;
+  background: #c1c1d5;
+  position: absolute;
+  bottom: -57px;
+}
+.contact2::before {
+  content: "";
+  height: 1px;
+  width: 100%;
+  background: #c1c1d5;
+  position: absolute;
+  top: 47px;
+}
+
+.conp {
+  color: #6e6e73;
+  font-family: "Sackers Gothic Std";
+  letter-spacing: 1px;
+  font-size: 23px;
+}
+.call {
+  font-family: "Kalista Serif";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 75px;
+  color: #c49a50;
+  text-align: center;
+  margin-top: 95px;
+}
+.uan {
+  text-align: center;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 26px;
+  color: #6e6e73;
+}
+
+/* contact us end */
+
+/* media queries */
+
+@media (max-width: 992px) {
+  .BKS {
+    font-size: 150px;
+  }
+}
+@media (max-width: 1200px) {
+  .value::after {
+    content: "";
+    display: none;
+  }
+
+  .value::before {
+    content: "";
+    display: none;
+  }
+}
+@media (min-width: 320px) and (max-width: 600px) {
+  .BKS {
+    font-size: 100px;
+    margin-left: auto;
+  }
+  .value {
+    margin-left: 20px;
+  }
+  .contact {
+    margin-left: 25px;
+  }
+  .contact::after {
+    content: "";
+    display: none;
+  }
+  .contact::before {
+    content: "";
+    display: none;
+  }
+  .contact2::after {
+    content: "";
+    display: none;
+  }
+}
