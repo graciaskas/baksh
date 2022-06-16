@@ -34,6 +34,8 @@ body {
     width: 100%;
     margin: 0;
     font-family: 'Poppins';
+    line-height: 1.6rem;
+    min-width: 320px;
 }
 
 img {
@@ -42,11 +44,24 @@ img {
 }
 
 h1 {
-    font-size: 7.5rem;
+    font-size: 2.7rem;
 }
-
+h2,h3,h4 {
+    font-weight: 100;
+}
 h1, h2, h3, h3,h4, h5, h4 {
     font-family: var(--font-default);
+}
+@media (max-width:768px){
+    body {
+        font-size: 0.87rem;
+    }
+    h1 {
+        font-size: 1.5rem;
+    }
+    h2 {
+        font-size: 1.1rem;
+    }
 }
 
 ul {

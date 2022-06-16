@@ -23,10 +23,17 @@
 .header nav ul li a:active {
    color: var(--yellow);
 }
+@media (max-width:768px){
+   .header nav ul {
+        display: none;
+    }
+}
+
+
 
 /* Banner Section */ 
 .banner__section {
-    height: 100vh;
+    height: 80vh;
 }
 .banner__content {
     display: flex;
@@ -34,6 +41,7 @@
     justify-content: center;
     align-items: center;
     text-align: center;
+    margin-top: 2rem;
 }
 
 
@@ -69,7 +77,7 @@
     display: flex;
     /* flex-wrap: wrap; */
     justify-content: space-between;
-    align-items: stretch;
+    /* align-items: stretch; */
 }
 .project__section .project__content .__explain{
     width: 40%;
@@ -98,48 +106,70 @@
 
 .about__section {
     background-color: var(--gray-second, #faf8f8a9);
-    padding: 5rem;
+    padding: 5rem 0;
 }
-
 .about__content {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
 }
-
 .about__content .__explain {
     width: 300px;
 }
-
 .about__content .__image {
     display: flex;
     align-items: flex-end;
     justify-content: center;
 }
-
 .about__content .__image img{
     width: 500px;
 }
+@media (max-width:600px){
+    .about__section {
+        padding: 2rem 0;
+    }
+    .about__content .__explain {
+        width: 500px;
+    }
+}
 
 
+
+/* Service */
 .service__content {
     display: flex;
     justify-content: space-between;
+    padding-bottom: 1.5rem;
+    flex: 1;
 }
-
+@media (max-width:600px){
+    .service__content {
+        display: block;
+    }
+    .__service {
+        width: 100%;
+    }
+}
 .service__content img{
     width: 700px;
 }
-
-.__service h4 {
-    position: relative;
+.__service {
+    padding: 1rem;
+    /* width: calc(100%/3); */
 }
-.__service h4::before{
-    content: "";
-    height: 5px;
-    background: var(--gray);
-    position: absolute;
-    width: 70%;
-    bottom: -10px;
-    border-radius: 0.25rem;
+.__service__header {
+    display: flex;
+    align-items: center;
+}
+.__service__header i{
+    font-weight: bolder;
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+.section__digital {
+    background-color: rgb(45, 45, 60);
+    padding: 2rem 0;
+    color: var(--white,#efefef);
 }

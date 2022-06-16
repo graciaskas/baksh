@@ -44,11 +44,11 @@ const Projects = (props) => {
         <div className="container">
           <div className="project__content">
             <div className="__explain">
-                <h2 className="our">
-                  OUR <span className="text-small text-yellow">VALUABLE UPCOMING</span>
+                <h2 className="flex-row wrap">
+                  OUR <span className="text-small text-yellow ml-2">VALUABLE UPCOMING</span>
                 </h2>
                 <h2 className="pro">PROJECTS</h2>
-                <p className="parap">
+                <p className="my-5">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam,
                   ipsam. Expedita quis cupiditate sunt, placeat incidunt odit
                   deserunt assumenda voluptas.
